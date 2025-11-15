@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Boys Hostel - Your Home Away From Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+              <a href="index.html"><img src="logo.jpg" alt="Lucky Boys Hostel Logo" class="logo-img"> </a>  
+                <a href="index.html" class="logo">Lucky <span>Boys</span> Hostel</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg active" id="bg1"></div>
+        <div class="hero-bg inactive" id="bg2"></div>
+        <div class="hero-content">
+            <h1>Welcome to Lucky Boys Hostel</h1>
+            <p>Your Comfortable Home Away From Home</p>
+            <a href="#contact" class="cta-button">Book Your Stay</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏠</div>
+                <h3>Comfortable Rooms</h3>
+                <p>Spacious and well-ventilated rooms with modern furnishings for your comfort.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🍽️</div>
+                <h3>Nutritious Meals</h3>
+                <p>Healthy and delicious meals prepared with care, just like home.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>Study Friendly</h3>
+                <p>Quiet study areas and high-speed internet for focused learning.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>24/7 Security</h3>
+                <p>Round-the-clock security ensuring your safety and peace of mind.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧹</div>
+                <h3>Housekeeping</h3>
+                <p>Regular cleaning services to maintain a hygienic environment.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Affordable Rates</h3>
+                <p>Quality accommodation at budget-friendly prices for students and working professionals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities" id="amenities">
+        <h2 class="section-title">Amenities</h2>
+        <div class="amenities-list">
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>High-Speed WiFi</span>
+            </div>
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>Laundry Service</span>
+            </div>
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>Hot Water 24/7</span>
+            </div>
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>Power Backup</span>
+            </div>
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>Common TV Room</span>
+            </div>
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>Bike Parking</span>
+            </div>
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>Water Purifier</span>
+            </div>
+            <div class="amenity-item">
+                <span>✓</span>
+                <span>First Aid</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="logos">
+                    <div class="logo-contact">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Address</h4>
+                        <h5>Santinagar,Kathmandu</h5>
+                    </div>
+
+                    <div class="logo-contact">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <h5>+977 +977 986-0103215</h5>
+                    </div>
+
+                    <div class="logo-contact">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <h5>luckyboys.hostel@gmail.com</h5>
+                    </div>
+
+                    <div class="logo-contact">
+                        <i class="fas fa-globe"></i>
+                        <h4>Website</h4>
+                        <h5>luckyboys.hostel.com.np</h5>
+                    </div>
+                    <div class="reservation">
+                        <a href="form.html" target="_blank">
+                            <button>Book Your Stay</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="d13d8076-2368-4c54-a29c-891e219f5528">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <input type="text" name="subject" placeholder="Subject" />
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <div class="map"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d807.3300483779406!2d85.34958823140207!3d27.688512145704014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19001f54eadb%3A0xee4f88564e80f4c2!2sReaders%20boys%20hostel!5e1!3m2!1sen!2snp!4v1763223067507!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lucky Boys Hostel. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Background Image Slideshow
+        const backgroundImages = [
+            'reading.jpeg',
+            'bed.jpg',
+            'canteen.jpg',
+            // 'logo.jpg'
+        ];
+
+        let currentBgIndex = 0;
+        const bg1 = document.getElementById('bg1');
+        const bg2 = document.getElementById('bg2');
+        let activeBg = bg1;
+        let inactiveBg = bg2;
+
+        // Set initial background
+        bg1.style.backgroundImage = `url('${backgroundImages[0]}')`;
+
+        function changeBackground() {
+            currentBgIndex = (currentBgIndex + 1) % backgroundImages.length;
+
+            // Set the next image on the inactive background
+            inactiveBg.style.backgroundImage = `url('${backgroundImages[currentBgIndex]}')`;
+
+            // Swap active and inactive
+            activeBg.classList.remove('active');
+            activeBg.classList.add('inactive');
+            inactiveBg.classList.remove('inactive');
+            inactiveBg.classList.add('active');
+
+            // Swap references
+            [activeBg, inactiveBg] = [inactiveBg, activeBg];
+        }
+
+        // Change background every 3 seconds
+        setInterval(changeBackground, 3000);
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate feature cards on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+
+</html>
